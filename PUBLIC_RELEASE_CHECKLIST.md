@@ -18,23 +18,23 @@ Fecha de empaquetado: 2026-10-18.
 - [x] En Windows, el usuario ejecutó 96/96 pruebas no gráficas correctamente.
 - [x] Suite Qt inicial: 102 pruebas, **1 error** (`RetailTable already deleted` en el test de 60 ciclos).
 - [x] Test de UI actualizado para esperar recargas y comprobar la validez del widget (sin alterar lógica del ERP).
-- [ ] **Repetir suite Qt con QA1** en Windows y verificar que el error haya desaparecido.
+- [x] **Suite Qt con QA1 repetida en Windows**: 4/4 tests gráficos y 102/102 pruebas de la suite completa, sin errores (2026-10-18; resultados aportados por el propietario).
 
 Ver `docs/GUI_TEST_QA1.md`.
 
 ## Validaciones externas pendientes
 
-- [x] PySide6 ejecutó pruebas Qt en Windows (resultado inicial: 1 error; pendiente repetición QA1).
-- [ ] Ejecutar todos los tests, incluyendo los módulos Qt.
-- [ ] Comprobar inicio GUI, asistente de administrador y navegación real.
-- [ ] Confirmar el layout/scroll/fotografías F22 del POS.
+- [x] PySide6 ejecutó pruebas Qt en Windows: fallo inicial resuelto en QA1 y suite final 102/102 aprobada.
+- [x] Ejecutar todos los tests, incluyendo los módulos Qt: 102/102 (Windows).
+- [x] Comprobar inicio GUI y navegación: se verificó inicio de sesión y se capturaron varias pantallas reales. El flujo de alta de primer administrador está cubierto mediante tests; prueba interactiva del alta en una instalación totalmente nueva todavía recomendable.
+- [x] Verificación visual del layout/scroll/fotografías del POS en Windows, incluyendo catálogo ampliado y carrito (capturas del propietario).
 - [ ] Probar operaciones completas de venta, caja, cupón, stock, recepción y compras.
 - [ ] Probar ticketera y lector de códigos, si se publicitan como compatibles con hardware real.
 - [ ] Comprobar derechos de uso de logos/capturas e identidad comercial.
-- [ ] Confirmar conscientemente que se autoriza publicar este código funcional con licencia no comercial.
+- [x] El propietario confirmó expresamente que acepta publicar la DEMO con código funcional antes de integraciones de IA/bots. Revisar compatibilidad legal y licencias antes de uso comercial.
 
 ## Resultado
 
-**⚠️ LISTO PARA GITHUB CON OBSERVACIONES**: paquete publicable desde el punto de vista de empaquetado y pruebas backend. La validación GUI Windows permanece pendiente. El escáner automatizado no sustituye una auditoría humana integral.
+**⚠️ PUBLICADO COMO DEMO, CON OBSERVACIONES**: el propietario confirmó 102/102 pruebas automatizadas en Windows y realizó inspecciones visuales de varias pantallas. Persisten validaciones pendientes: periféricos físicos, flujo integral empresarial, y revisión final de imágenes/licencias. El escáner automatizado no sustituye una auditoría humana integral.
 
 No marcar tareas pendientes como realizadas antes de ejecutarlas.

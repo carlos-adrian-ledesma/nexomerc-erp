@@ -33,21 +33,35 @@ NexoMerc ERP es una aplicación de escritorio orientada a centralizar la gestió
 
 La explicación técnica y funcional, los límites y cada operación están en [**docs/FUNCIONALIDADES.md**](docs/FUNCIONALIDADES.md).
 
-## 🖼️ Capturas de la aplicación
+## 🖼️ Galería visual — NexoMerc ERP
 
-> Las siguientes son **capturas reales históricas F03** aportadas con el proyecto. El layout del POS y otras vistas fueron actualizados posteriormente hasta la revisión **F22**; estas imágenes NO representan necesariamente el aspecto actual exacto.
+Las siguientes son **composiciones de presentación 1080 × 1080** elaboradas a partir de capturas de NexoMerc ERP tomadas durante las pruebas de Windows del 18 de octubre de 2026. Se utilizan para **portafolio comercial**; las composiciones pueden tener ajustes gráficos y no sustituyen las capturas originales de la interfaz.
 
-| Panel principal | Catálogo de productos |
-| --- | --- |
-| ![Dashboard F03](docs/screenshots/dashboard_F03.png) | ![Productos F03](docs/screenshots/products_F03.png) |
+| Panel principal | Productos y stock |
+| :---: | :---: |
+| ![Panel principal y actividad de NexoMerc](docs/github-images/01_panel_principal.png) | ![Catálogo, productos y existencias](docs/github-images/02_productos_y_stock.png) |
 
-**Punto de venta, captura histórica F03:**
+| Categorías y marcas | Recepción de mercadería |
+| :---: | :---: |
+| ![Administración de categorías y marcas](docs/github-images/03_categorias_y_marcas.png) | ![Recepción de mercadería](docs/github-images/04_recepcion_de_mercaderia.png) |
 
-![POS histórico F03](docs/screenshots/pos_F03.png)
+| Compras y proveedores | Ventas, caja y POS |
+| :---: | :---: |
+| ![Compras y proveedores](docs/github-images/05_compras_y_proveedores.png) | ![Punto de venta con catálogo visual](docs/github-images/06_ventas_caja_y_pos.png) |
+
+| POS visual ampliado | Caja en operación |
+| :---: | :---: |
+| ![Diseño de catálogo y carrito ampliado](docs/github-images/07_pos_visual.png) | ![Venta en curso con artículos en carrito](docs/github-images/08_caja_en_operacion.png) |
+
+| Clientes | Usuarios y configuración |
+| :---: | :---: |
+| ![Gestión de clientes](docs/github-images/09_clientes.png) | ![Usuarios, permisos y configuración](docs/github-images/10_usuarios_permisos_y_configuracion.png) |
+
+**Capturas originales históricas:** se conservan en [`docs/screenshots/`](docs/screenshots/) como referencia F03, no como representación visual de la revisión actual. Algunas imágenes de presentación contienen datos ficticios o de prueba; revisarlos antes de redistribuir.
 
 ## 🖥️ Instalación rápida — Windows 10/11 (64 bits)
 
-- **Python 3.13 de 64 bits recomendado para esta entrega**. Python 3.12 también es una opción, pero **la revisión F22 no se ha validado aún interactivamente en Windows**.
+- **Python 3.13 de 64 bits recomendado para esta entrega**. Python 3.12 también es una opción. En Windows, con Python 3.13 y PySide6, se ejecutaron satisfactoriamente las 102 pruebas de la suite QA1; esta validación no equivale a certificar hardware ni uso productivo.
 - Dependencia de interfaz: `PySide6==6.10.2`.
 - Git opcional para clonar; no es necesario para ejecutar el ZIP.
 
@@ -121,7 +135,7 @@ NexoMerc_ERP/
 
 ## 🏷️ Estado y versiones
 
-**Revisión de interfaz/código recibido:** V2-F22. El archivo `VERSION.txt` conserva `2.0.14` por compatibilidad histórica con pruebas y scripts antiguos; no representa el número visual F22. Las validaciones interactivas de Windows y periféricos figuran como pendientes.
+**Revisión de interfaz/código recibido:** V2-F22. El archivo `VERSION.txt` conserva `2.0.14` por compatibilidad histórica con pruebas y scripts antiguos; no representa el número visual F22. La suite QA1 se ejecutó con 102/102 pruebas aprobadas en Windows y se revisaron visualmente pantallas principales. La validación de periféricos y escenarios empresariales completos permanece pendiente.
 
 ## 🧑‍💻 Autoría y contacto
 
