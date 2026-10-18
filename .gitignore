@@ -1,0 +1,51 @@
+# Python / entornos
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+coverage/
+# Compilados
+build/
+dist/
+*.spec
+# Credenciales / configuraciones particulares
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Bases, copias y fotos privadas
+*.sqlite
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+data/private/
+data/
+photos/
+photos/private/
+backups/
+patch_backups/
+RESPALDOS_NEXOMERC/
+# Diagnósticos y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+*.rej
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

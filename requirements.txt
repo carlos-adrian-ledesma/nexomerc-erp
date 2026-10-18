@@ -1,0 +1,2 @@
+# Dependencia externa utilizada por la UI Qt. Versión registrada en ENTORNO_F03.json.
+PySide6==6.10.2
