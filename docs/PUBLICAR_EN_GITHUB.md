@@ -1,6 +1,6 @@
 # 📤 NexoMerc ERP — Publicación del repositorio DEMO público
 
-**Objetivo:** subir el contenido de `NexoMerc_ERP_GITHUB_PORTFOLIO_V2_F22.zip` al repositorio `carlos-adrian-ledesma/nexomerc-erp` como fuente visible de evaluación. **No subir el ZIP privado aquí.**
+**Estado actualizado (18/10/2026):** edición DEMO QA1 publicada en `https://github.com/carlos-adrian-ledesma/nexomerc-erp`, galería `docs/github-images/` incorporada y Release `demo-v2-f22-qa1` publicada. El procedimiento inicial que sigue se conserva como referencia para instalaciones nuevas. **No repetir `git init`, `git remote add origin` ni crear otra vez la etiqueta existente sobre este repositorio. No subir el ZIP privado aquí.**
 
 ## A. Validar la DEMO en el equipo
 
@@ -112,12 +112,9 @@ git remote set-url origin https://github.com/carlos-adrian-ledesma/nexomerc-erp.
 
 Solo después de validar el arranque GUI y las funciones básicas:
 
-```powershell
-git tag -a demo-v2-f22 -m "NexoMerc ERP Portfolio Demo V2-F22"
-git push origin demo-v2-f22
-```
+La etiqueta **ya creada** para QA1 es `demo-v2-f22-qa1`; no volver a crearla ni moverla. Para futuras versiones, generar una etiqueta nueva desde el commit validado.
 
-Abrí GitHub → repositorio → **Releases → Draft a new release**, seleccioná `demo-v2-f22`, título `NexoMerc ERP · Portfolio Demo V2-F22` y describí características/limitaciones. Es opcional adjuntar el ZIP DEMO como archivo de la release. **No adjuntar el privado.**
+Abrí GitHub → repositorio → **Releases**. La publicación actual se llama `NexoMerc ERP — Portfolio Demo V2-F22 QA1`. Es opcional adjuntar el ZIP DEMO como archivo de la release. **No adjuntar el privado.**
 
 ## H. Commits de futuras mejoras (NO ejecutarlos sin cambios reales)
 

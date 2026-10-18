@@ -28,4 +28,4 @@ Se ha actualizado solamente `tests/test_retail_ui.py`:
 .\.venv\Scripts\python.exe scripts\check_publication.py
 ```
 
-Los tests Qt **no pudieron repetirse en el entorno de empaquetado**, donde PySide6 no está instalado. La corrección debe confirmarse en el equipo Windows. Si persiste el fallo, conservar la salida completa y evaluar si hay un error real en la gestión del ciclo de vida de widgets de la aplicación.
+En el entorno de empaquetado no estaba instalado PySide6. **Posteriormente el propietario ejecutó la corrección en Windows (18/10/2026): 4/4 pruebas gráficas aprobadas en dos ejecuciones y 102/102 pruebas de la suite completa aprobadas**. El control estático de publicación también finalizó correctamente. Esto valida las pruebas automatizadas ejecutadas, no el funcionamiento de cada periférico físico ni la totalidad de escenarios empresariales.

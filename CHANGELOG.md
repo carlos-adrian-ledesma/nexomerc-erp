@@ -3,8 +3,10 @@
 ## [Portfolio DEMO V2-F22 QA1] — 2026-10-18
 
 - Sincronización robusta del test de 60 ciclos de edición en UI, evitando reutilización de tablas Qt eliminadas durante recargas asíncronas.
-- Documentación del error observado en Windows y de la verificación gráfica aún pendiente.
+- Pruebas gráficas QA1 repetidas en Windows: 4/4 aprobadas; suite completa 102/102 aprobadas.
 - Sin cambios en la aplicación, datos, módulos ni autenticación.
+- Galería comercial de diez imágenes cuadradas 1080 × 1080 publicada en `docs/github-images/`.
+- Release `demo-v2-f22-qa1` publicada en GitHub. Pendientes las pruebas con periféricos reales y el flujo empresarial completo.
 
 ## [Portfolio DEMO V2-F22] — 2026-10-18
 
@@ -24,4 +26,4 @@
 - Archivos `.gitignore`, `.gitattributes`, licencia restrictiva y documentación de limitaciones.
 - Exclusión de bases reales, credenciales, herramientas privadas e históricos de parches del paquete público.
 
-**Alcance de verificación:** pruebas backend; falta validar el flujo gráfico completo en Windows. `VERSION.txt=2.0.14` es metadato heredado, no contradice la revisión visual F22.
+**Alcance de verificación:** pruebas backend y suite gráfica QA1 en Windows (102/102 aprobadas); falta verificar periféricos reales y flujos empresariales integrales. `VERSION.txt=2.0.14` es metadato heredado, no contradice la revisión visual F22.

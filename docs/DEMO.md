@@ -26,6 +26,6 @@ No se incluye una base SQLite con usuarios ya creados, contraseñas o datos de t
 
 - Los datos de demostración son responsabilidad de quien ejecuta el software: **no introducir clientes ni ventas reales**.
 - La GUI y dispositivos de Windows se deben probar en el equipo antes de anunciar la demostración como validada.
-- La interfaz de POS ha evolucionado hasta F22; las capturas públicas son F03 y están identificadas como históricas.
+- La galería actual contiene diez composiciones comerciales 1080 × 1080 en `docs/github-images/`, basadas en capturas de Windows. Las capturas originales F03 siguen archivadas en `docs/screenshots/`; las composiciones comerciales no sustituyen capturas sin editar.
 - No hay inteligencia artificial, bots ni facturación fiscal homologada.
 - Esta distribución incluye código visible. Ver `LICENSE.md` antes de reutilizarlo.
